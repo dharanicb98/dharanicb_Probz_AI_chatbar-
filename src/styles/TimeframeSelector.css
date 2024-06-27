@@ -1,0 +1,26 @@
+.timeframe-selector {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.timeframe-selector button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .timeframe-selector {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeframe-selector button {
+    margin: 5px 0;
+  }
+}
